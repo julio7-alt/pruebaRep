@@ -84,6 +84,11 @@ public class Date {
     } catch (ParseException e) {
       return false;
     }
+
+    @Override
+    public String toString(){
+      return ("Fecha: " + day + "/" + month + "/" + year);
+    }
   }
 
 
